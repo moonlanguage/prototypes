@@ -2,14 +2,14 @@
 This document is a reference to all things about the language.
 
 ## Why Moon?
-Moon is a flexible
+Moon is a flexible, easy to learn programming language.
 
 ## Syntax
 ### Paradigm
 Multi paradigm: Object-oriented, Imperative, Functional, Procedural
 
 ### Keywords
-  - `var`: Declare/define variables in the current scope
+  - `def`: Declare/define variables/functions in the current scope
   - `global`: Declare/define variables and functions in the global scope
   - `local`: Declare/define variables that can only be used on the current scope
 
@@ -51,7 +51,7 @@ while true:
 foobar()
 ```
 If it have an instruction in the same line of `:` or theres no additional space/tab added compared to the previous line when using this type of scope you are only able to use one (the next) instruction
-```
+```moon
 while true: foo()
 bar() // Not in loop
 while true:
